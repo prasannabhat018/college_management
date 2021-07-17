@@ -8,6 +8,7 @@ const user = require("./routes/user");
 const student = require("./routes/student");
 const teacher = require("./routes/teacher");
 var cors = require("cors");
+require('./startup/prod')(app);
 
 const listeningPort = 1500;
 

@@ -42,7 +42,12 @@ export default function DepartmentPost({ user }) {
 
   const feed = posts.map((post) => (
     <Grid item xs={12} justify="center">
-      <Post key={post.p_id} title={post.title} message={post.message} />
+      <Post 
+      key={post.p_id} 
+      title={post.title} 
+      message={post.message} 
+      date={post.date}
+    />
     </Grid>
   ));
   if (!user) {

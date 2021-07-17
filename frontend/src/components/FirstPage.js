@@ -62,7 +62,7 @@ export default function FirstPage() {
                 <img src="/assets/admin.svg" />
               </Icon>
               <Typography variant="h6" className={classes.typo}>
-                I AM AN ADMIN
+                ADMIN
               </Typography>
             </Paper>
           </Link>
@@ -80,7 +80,7 @@ export default function FirstPage() {
                 <img src="/assets/teacher.svg" />
               </Icon>
               <Typography variant="h6" className={classes.typo}>
-                I AM A TEACHER
+                TEACHER
               </Typography>
             </Paper>
           </Link>
@@ -99,7 +99,7 @@ export default function FirstPage() {
                 <img src="/assets/student.svg" />
               </Icon>
               <Typography variant="h6" className={classes.typo}>
-                I AM A STUDENT
+                STUDENT
               </Typography>
             </Paper>
           </Link>

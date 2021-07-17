@@ -48,6 +48,7 @@ export default function DepartmentPost({ user }) {
         key={post.p_id}
         title={post.title}
         message={post.message}
+        date={post.date}
       />
     </Grid>
   ));

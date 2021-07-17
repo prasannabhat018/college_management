@@ -49,6 +49,7 @@ export default function ClassPost() {
         author={post.author}
         course={post.name}
         message={post.message}
+        date={post.date}
       />
     </Grid>
   ));
